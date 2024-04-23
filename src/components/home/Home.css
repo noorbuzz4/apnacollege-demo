@@ -1,0 +1,48 @@
+.bg-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 41, 10, 0.815)),
+    url(https://img.freepik.com/free-photo/futuristic-skyscraper-steel-glass-illuminated-night-generated-by-ai_24640-86722.jpg);
+   filter: blur(14px);
+  height: 100vh;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.bg-text{
+  
+  color: white;
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  
+  
+  text-align: center;
+}
+.hero-heading-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+}
+.hero-hading {
+  color: white;
+  font-size: 43px;
+  text-transform: uppercase;
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-p{
+  color: white;
+  text-align: end;
+  width: 570px;
+  line-height: 22px;
+}

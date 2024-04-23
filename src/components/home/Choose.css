@@ -1,0 +1,18 @@
+.choose-heading {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background: -webkit-linear-gradient(#ffffff, #05771885);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-choose{
+    /* background:  rgb(15, 15, 15); */
+    padding: 2rem ;
+    margin: 0 2rem;
+    border-radius: 5px;
+}
+.choose-icon{
+    width: 80px;
+}
